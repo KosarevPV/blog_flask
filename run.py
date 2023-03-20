@@ -1,6 +1,5 @@
-from blog_flask import create_app
+from blog_flask.admin import app
 
-app = create_app()
 
 if __name__ == '__main__':
     app.run(debug=True)
